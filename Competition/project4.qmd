@@ -65,7 +65,6 @@ box_plot = ggplot(df, aes (x='before1980', y='livearea')) + \
   geom_boxplot () +\
 coord_cartesian (ylim=(0, 5000))
 box_plot.show()
-df
 ```
 
 ```{python}
